@@ -1,104 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Deadly Copilot 365 - Virat Nain</title>
+    <title>The Deadly Web 356 | Welcome</title>
     <style>
-        /* Professional Gradient Background */
-        body {
-            background: linear-gradient(135deg, #0078d4 0%, #001e36 100%);
+        /* 1. Basic Reset */
+        * {
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* 2. Scenery Background */
+        body {
+            /* Aap niche wali URL mein apni pasand ki scenery link daal sakte hain */
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
             color: white;
-            overflow: hidden;
+            text-align: center;
         }
 
-        .hero-container {
-            text-align: center;
-            padding: 40px;
+        /* 3. Glassmorphism Card (Stylish Look) */
+        .container {
             background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px); /* Modern Glass Effect */
+            backdrop-filter: blur(10px);
+            padding: 50px;
             border-radius: 20px;
             border: 1px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
-            animation: mainScale 0.8s ease-out;
-        }
-
-        @keyframes mainScale {
-            from { opacity: 0; transform: scale(0.8); }
-            to { opacity: 1; transform: scale(1); }
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            max-width: 600px;
+            width: 90%;
         }
 
         h1 {
-            font-size: 32px;
-            margin-bottom: 10px;
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
             letter-spacing: 2px;
-            text-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
         }
 
-        .owner-tag {
-            font-size: 14px;
-            background: #ffaa00;
-            color: #001e36;
-            padding: 5px 20px;
-            border-radius: 50px;
-            font-weight: bold;
-            display: inline-block;
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
             margin-bottom: 30px;
+            font-weight: 300;
         }
 
-        /* Deadly Animated Button */
-        .btn-start {
+        /* 4. Stylish Button */
+        .btn {
             display: inline-block;
-            background: white;
-            color: #0078d4;
-            padding: 18px 40px;
-            font-size: 18px;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 50px;
-            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-            animation: pulse 2s infinite;
-        }
-
-        .btn-start:hover {
-            transform: translateY(-5px) scale(1.05);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.4);
-            background: #0078d4;
+            padding: 12px 30px;
+            background: #ff4757;
             color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 71, 87, 0.4);
         }
 
-        @keyframes pulse {
-            0% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4); }
-            70% { box-shadow: 0 0 0 20px rgba(255, 255, 255, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
-        }
-
-        .footer-text {
-            margin-top: 30px;
-            font-size: 12px;
-            opacity: 0.7;
+        .btn:hover {
+            transform: translateY(-3px);
+            background: #ff6b81;
+            box-shadow: 0 6px 20px rgba(255, 71, 87, 0.6);
         }
     </style>
 </head>
 <body>
 
-    <div class="hero-container">
-        <div class="owner-tag">OFFICIAL PLATFORM</div>
-        <h1>THE DEADLY COPILOT 365</h1>
-        <p style="margin-bottom: 40px; opacity: 0.9;">Created By: <b>VIRAT NAIN</b></p>
-        
-        <a href="presentation.html" class="btn-start">LAUNCH SOFTWARE</a>
-        
-        <div class="footer-text">
-            © 2024 AI Systems | Powered by Virat's Code
-        </div>
+    <div class="container">
+        <h1>The Deadly Web 356 🕸️</h1>
+        <p>Swagat hai meri stylish single-page website par! Yahan aapko milega behtareen content aur ek mast scenery wala view. 🌲⛰️</p>
+        <a href="#" class="btn">Explore More 🚀</a>
     </div>
 
 </body>
